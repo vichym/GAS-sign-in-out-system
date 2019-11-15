@@ -38,15 +38,15 @@ The system is created based on Google Form, Google Spreadsheet and Google App Sc
 
 ### Sign a student In : 
 If a teacher wishes to sign a student in, please select the student name or any column in the same row and then click the  `Sign in` button. After signing a student in using this method, a “Failed, Already signed in” message will shows up if the student submit another sign in request. 
-![](Picture1.png)
+![](screenshots/Picture1.png)
 
 
 ### Resetting Phones Availability Status : 
 When A student return a school phone, a faculty/staff can reset the availability status in School Phones sheet. 
-![](Picture2.png)
+![](screenshots/Picture3.png)
 
 ### Inserting Names of School Phone Borrowers :  
-![](Picture3.png)
+![](screenshots/Picture2.png)
 
 #### Checking Out Phone : Limitation and potential issues: 
 1.	The phone list  and student sign in list on the form get update every time the form get submitted. The form cannot get updated immediately when students are filling the form. Therefore, if many students are filling the form at the same time, they might not see the most updated phone data on the form. 
@@ -57,7 +57,7 @@ Students’ Emails whose overnight trip permission have been approved need to be
 
 Verification failure will result in students receiving a notification email as shown below: 
 
-![](Picture3.png)
+![](screenshots/Picture4.png)
 
 ## Sharing and Permission
 App script requires permission and authorization from moderators who are using the spreadsheet to operate. 
@@ -67,15 +67,15 @@ The Script operates on both the Google form and the Spreadsheet. Therefore, plea
 ## Type of Error Messages
 There are many reasons that causes a request to fail. 
 
-![](Picture99.png)
+![](screenshots/Picture8.png)
 
-![](Picture4.png)
+![](screenshots/Picture5.png)
 
 ## Banning Student from Signing Out
 In order to ban a student from signing out, please list his/her email on ‘Banned Students’ sheet.
 Those whose email is listed on the sheet will not be able to sign out. He/she will receive a notification email as his/her request has been denied.  
 
-![](Picture5.png)
+![](screenshots/Picture6.png)
 
 ## Data Reset Schedule
 
@@ -85,4 +85,4 @@ All the form responses and data in the spreadsheet will automatically deleted ev
 ### Manual Data Reset
 Manual Data reset can be performed by clicking on any preferred reset buttons in the reset sheet. 
 
-![](Picture6.png)
+![](screenshots/Picture7.png)
